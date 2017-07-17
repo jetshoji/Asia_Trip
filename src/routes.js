@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 
-import AboutMe from './components/About_me/aboutMe';
+import AboutMe from './components/about_me/aboutMe';
 import Home from './components/home';
 import App from './components/app';
-import Vlogs from './components/Vlogs/vlogs'
+import Vlogs from './components/vlogs/vlogs'
 
 
 export default (
