@@ -6,9 +6,7 @@ class AboutMe extends Component{
 			<div>
 				<p>Welcome to Welcome
 				</p>
-			</div>
-			
-
+			</div>		
 			);
 
 	}

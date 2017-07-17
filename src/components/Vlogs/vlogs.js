@@ -7,10 +7,7 @@ class Vlogs extends Component{
 				<p>Japan Trip
 				</p>
 			</div>
-			
-
 			);
-
 	}
 }
 
