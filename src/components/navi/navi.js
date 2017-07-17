@@ -19,7 +19,7 @@ class Navi extends Component{
 		return(
 			<Navbar staticTop collapseOnSelect className="myNavBar">
 				<Navbar.Header>
-					<Navbar.Brand>
+					<Navbar.Brand className="navBarpic">
 						<LinkContainer to="/" activeHref="active">
 							<a>
 								<Image src="https://www.sherpareport.com/images/hire-jet-plane.jpg" height={50}/>
