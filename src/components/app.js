@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navi from './navi/Navi'; 
+import Navi from './Navi/navi'; 
 import Helmet from 'react-helmet';
 
 export default class App extends Component {
