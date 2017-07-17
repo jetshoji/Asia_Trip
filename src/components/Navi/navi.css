@@ -1,0 +1,32 @@
+.myNavBar {
+	background-color: #bff9ff;
+	/*padding-right: 0rem !important;
+    padding-left: 0rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;*/
+
+
+}
+
+.myNavContainer{
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+/* .myNavBar > .container{
+padding-right: 0rem !important;
+    padding-left: 0rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+}
+*/
+/*.container {
+     padding-right: 0rem; 
+     padding-left: 0rem; 
+     margin-right: 0; 
+     margin-left: 0; 
+     max-width: 0px;
+}
+*/

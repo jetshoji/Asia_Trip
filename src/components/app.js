@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navi from './navi/navi'; 
+import Navi from './navi/Navi'; 
 import Helmet from 'react-helmet';
 
 export default class App extends Component {
@@ -12,12 +12,12 @@ export default class App extends Component {
       			{name:"viewport", content: "width=device-width, initial-scale=1.0"}
       		]}
       		link={[
-      			{rel: "stylesheet", href:"/css/bootstrap.min.css"}
+      			{rel: "stylesheet", href:"/css/bootstrap.min.css"},
+                {rel: "stylesheet", href:"/src/components/Navi/navi.css"}
       		]}
       		/>
       	<Navi/>
-      	<div>Jet is light weight </div>
-      	<div>Paul is Russian </div>
+        {this.props.children}
       </div>
     );
   }
