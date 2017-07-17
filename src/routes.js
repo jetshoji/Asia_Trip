@@ -4,7 +4,7 @@ import { Route, IndexRoute } from 'react-router';
 import AboutMe from './components/about_me/about_me';
 import Home from './components/home';
 import App from './components/app';
-import Vlogs from './components/vlogs/vlogs'
+import Vlogs from './components/vlogs/vlogs';
 
 
 export default (
