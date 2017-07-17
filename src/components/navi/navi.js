@@ -33,7 +33,7 @@ class Navi extends Component{
 						<LinkContainer to="about_me">
 							<NavItem eventKey={1} >About me</NavItem>	
 						</LinkContainer>	
-						<LinkContainer to="about_me2">
+						<LinkContainer to="v_logs">
 							<NavItem eventKey={2} >Vlogs</NavItem>	
 						</LinkContainer>		
 					</Nav>
