@@ -30,10 +30,10 @@ class Navi extends Component{
 				</Navbar.Header>
 				<Navbar.Collapse>
 					<Nav pullRight>
-						<LinkContainer to="About_me">
+						<LinkContainer to="about_me">
 							<NavItem eventKey={1} >About me</NavItem>	
 						</LinkContainer>	
-						<LinkContainer to="Vlogs">
+						<LinkContainer to="vlogs">
 							<NavItem eventKey={2} >Vlogs</NavItem>	
 						</LinkContainer>		
 					</Nav>
