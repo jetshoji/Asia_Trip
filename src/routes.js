@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 
 import AboutMe from './components/About_me/aboutMe';
-import Home from './components/Home';
+import Home from './components/home';
 import App from './components/app';
 import Vlogs from './components/Vlogs/vlogs'
 
