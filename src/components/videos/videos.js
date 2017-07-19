@@ -1,11 +1,31 @@
 import React, { Component } from 'react';
+import videovlogs from './videodata';
+import Videodetails from './Videodetails';
+
+
+
 
 class Videos extends Component{
+	constructor(props){
+		super(props);
+	}
+
 	render(){
+		const vids=videovlogs.map( (viddata, index)=>{
+			return(
+				<Videodetails viddetail={viddata} key={index}>
+
+				</Videodetails>
+				);
+		} );
 		return(
 			<div>
-				<p>Japan Trip
-				</p>
+				<h1>
+				V-LOGS
+				</h1>
+				<div>
+					{vids}
+				</div>
 			</div>
 			);
 	}
