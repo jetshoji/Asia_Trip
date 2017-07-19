@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import videovlogs from './videodata';
-import Videodetails from './Videodetails';
+import Videodetails from './videodetails';
 
 
 
