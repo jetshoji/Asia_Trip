@@ -13,7 +13,8 @@ export default class App extends Component {
       		]}
       		link={[
       			{rel: "stylesheet", href:"/css/bootstrap.min.css"},
-                {rel: "stylesheet", href:"/src/components/Navi/navi.css"}
+                {rel: "stylesheet", href:"/src/components/navi/navi.css"},
+                    {rel: "stylesheet", href:"/src/components/videos/video.css"}
       		]}
       		/>
       	<Navi/>
