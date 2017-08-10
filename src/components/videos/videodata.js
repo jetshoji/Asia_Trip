@@ -2,7 +2,11 @@ const videovlogs=[
 {
   "video":"https://www.youtube.com/embed/gNpThxQjxUI", 
   "key":"1", 
-  "desc":"osaka"
+  "desc":"osaka",
+  "video":"https://www.youtube.com/embed/UeKSh9fIeYo",
+  "key":"2",
+  "desc":"nagasaki"
+
 }
 // { "video":"https://www.youtube.com/watch?v=1oODkyd7JFU",
 // 	"key":"2",
